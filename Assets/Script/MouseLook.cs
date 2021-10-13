@@ -11,7 +11,9 @@ public class MouseLook : MonoBehaviour
     public Transform target;
     void Start()
     {
+        hit_position = Input.mousePosition;
 
+        camera_position = transform.position;
     }
 
     void Update()
@@ -19,9 +21,7 @@ public class MouseLook : MonoBehaviour
         Move();
         if (Input.GetMouseButtonDown(0))
         {
-            hit_position = Input.mousePosition;
 
-            camera_position = transform.position;
 
         }
         if (Input.GetMouseButton(0))
@@ -46,6 +46,6 @@ public class MouseLook : MonoBehaviour
 
         Vector3 position = camera_position + direction;
 
-        transform.position = new Vector3(position.x, transform.position.y, transform.position.z);
+        transform.position = new Vector3(position.x*2, transform.position.y, transform.position.z);
     }
 }

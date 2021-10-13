@@ -85,7 +85,7 @@ public class PJ : MonoBehaviour
 
         if (other.CompareTag("Fim"))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("Fim");
         }
 
     }

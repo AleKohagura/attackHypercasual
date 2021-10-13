@@ -33,7 +33,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 64
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -70,7 +70,7 @@ LightmapSettings:
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
-    m_ReflectionCompression: 2
+    m_ReflectionCompression: 1
     m_MixedBakeMode: 2
     m_BakeBackend: 1
     m_PVRSampling: 1
@@ -209,6 +209,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore Grande (6)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
@@ -357,6 +361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pedra Grande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
 --- !u!1 &161581898
@@ -460,6 +468,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore Grande (21)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
@@ -593,6 +605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (19)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!4 &290066248 stripped
@@ -617,7 +633,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!64 &319263321
 MeshCollider:
@@ -794,6 +810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore Grande (20)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
 --- !u!1 &350276152
@@ -878,7 +898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &351711080
 Transform:
   m_ObjectHideFlags: 0
@@ -1013,6 +1033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (22)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1 &414199801
@@ -1145,6 +1169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (18)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1001 &459374599
@@ -1201,6 +1229,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore pequena (24)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
@@ -1259,6 +1291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (20)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1001 &496930405
@@ -1315,6 +1351,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore pequena (6)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
@@ -1378,6 +1418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore Grande (8)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
 --- !u!1001 &537499214
@@ -1435,6 +1479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (21)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1001 &545847150
@@ -1491,6 +1539,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
       propertyPath: m_Name
       value: Pedra Grande (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
@@ -1632,6 +1684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (17)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1001 &589623305
@@ -1688,6 +1744,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore Grande (14)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
@@ -1854,6 +1914,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore pequena (9)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
@@ -2098,6 +2162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (7)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!4 &745398060 stripped
@@ -2159,6 +2227,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore Grande"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
@@ -2292,6 +2364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1001 &835764642
@@ -2348,6 +2424,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 699f9aed9d8e930409ee0b0ec3a95e4c, type: 3}
       propertyPath: m_Name
       value: chegada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 699f9aed9d8e930409ee0b0ec3a95e4c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 699f9aed9d8e930409ee0b0ec3a95e4c, type: 3}
@@ -2406,6 +2486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore Grande (13)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
 --- !u!1001 &889493655
@@ -2462,6 +2546,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore pequena (10)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
@@ -2520,6 +2608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore Grande (18)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
 --- !u!1001 &920868596
@@ -2577,6 +2669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (13)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1001 &927400286
@@ -2633,6 +2729,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore pequena (3)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
@@ -2781,6 +2881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (8)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!4 &966054925 stripped
@@ -2922,6 +3026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (14)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1001 &1014577660
@@ -2979,6 +3087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (11)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1001 &1025525245
@@ -3035,6 +3147,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore Grande (3)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
@@ -3105,6 +3221,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ac19c8c9faa780e48905a5e6879e2ec1, type: 2}
+    - target: {fileID: -2579933465059441559, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 882129737928793925, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3112,6 +3232,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
       propertyPath: m_Name
       value: f (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
@@ -3169,6 +3297,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore Grande (9)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
@@ -3274,6 +3406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (25)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!4 &1242523191 stripped
@@ -3336,6 +3472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore Grande (7)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
 --- !u!1001 &1304586263
@@ -3392,6 +3532,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore Grande (19)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
@@ -3450,6 +3594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore Grande (10)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
 --- !u!1001 &1348488390
@@ -3506,6 +3654,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
       propertyPath: m_Name
       value: Pedra Grande (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
@@ -3564,6 +3716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore Grande (17)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
 --- !u!1001 &1372409159
@@ -3620,6 +3776,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
       propertyPath: m_Name
       value: Pedra Grande (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
@@ -3784,6 +3944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pedra Grande (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
 --- !u!1001 &1416193520
@@ -3853,6 +4017,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ac19c8c9faa780e48905a5e6879e2ec1, type: 2}
+    - target: {fileID: -2579933465059441559, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 882129737928793925, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3860,6 +4028,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
       propertyPath: m_Name
       value: f
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd1b84a31f59c7e4a8463952dff73856, type: 3}
@@ -3918,6 +4094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore Grande (11)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
 --- !u!1001 &1469079020
@@ -3975,6 +4155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore Grande (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
 --- !u!1001 &1473208282
@@ -4031,6 +4215,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore pequena"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
@@ -4093,6 +4281,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore Grande (16)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
@@ -4183,7 +4375,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481157926}
   m_LocalRotation: {x: 0.2620026, y: -0.60402274, z: 0.21984623, w: 0.71984637}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4329,7 +4521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b79762790d28844b96fa081e1b2224d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 5
   target: {fileID: 1961212916}
 --- !u!65 &1509268438
 BoxCollider:
@@ -4398,6 +4590,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore Grande (2)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
@@ -4546,6 +4742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1001 &1621803718
@@ -4603,6 +4803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore Grande (1)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
 --- !u!1001 &1646676958
@@ -4659,6 +4863,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore pequena (23)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
@@ -4721,6 +4929,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
       propertyPath: m_Name
       value: Pedra Grande (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94994c334d49e944dbf7a95a238f07c7, type: 3}
@@ -4906,6 +5118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (16)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1001 &1898626936
@@ -4962,6 +5178,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore Grande (12)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
@@ -5024,6 +5244,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore pequena (12)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
@@ -5303,6 +5527,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore pequena (15)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
@@ -5668,6 +5896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore pequena (1)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
 --- !u!1001 &2061789429
@@ -5724,6 +5956,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore pequena (5)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9135155aa7659524585b1c398d4894de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9135155aa7659524585b1c398d4894de, type: 3}
@@ -5787,6 +6023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\xC1rvore Grande (15)"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
 --- !u!1001 &2113510009
@@ -5843,6 +6083,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
       propertyPath: m_Name
       value: "\xC1rvore Grande (5)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d051060de376954429b37507d7b21c80, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d051060de376954429b37507d7b21c80, type: 3}
