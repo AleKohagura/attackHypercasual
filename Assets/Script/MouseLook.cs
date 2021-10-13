@@ -25,7 +25,7 @@ public class MouseLook : MonoBehaviour
     {
         Vector3 a = transform.position;
         Vector3 b = target.position;
-        transform.position = Vector3.MoveTowards(a, b, speed / 200f);
+        transform.position = Vector3.MoveTowards(a, b, speed*Time.deltaTime);
     }
   
 }
